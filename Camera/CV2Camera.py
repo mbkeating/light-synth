@@ -1,6 +1,6 @@
+from Camera.ICamera import ICamera
 import cv2
 import numpy as np
-from Camera.ICamera import ICamera
 
 class CV2Camera(ICamera):
     def __init__(self):
